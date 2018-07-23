@@ -1,0 +1,43 @@
+{
+  "name": "ionic-multiple-image-upload",
+  "version": "1.0.0",
+  "description": "A package to upload multiple images to server at once",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ravi448/ionic-multiple-image-upload.git"
+  },
+  "keywords": [
+    "'ionic",
+    "multiple",
+    "image",
+    "upload'",
+    "'ionic",
+    "image",
+    "upload",
+    "with",
+    "data'",
+    "'ionic",
+    "post",
+    "data",
+    "in",
+    "formdata",
+    "instead",
+    "of",
+    "json'",
+    "'ionic",
+    "image",
+    "upload",
+    "to",
+    "server'"
+  ],
+  "author": "Ravi Kumar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Ravi448/ionic-multiple-image-upload/issues"
+  },
+  "homepage": "https://github.com/Ravi448/ionic-multiple-image-upload#readme"
+}
