@@ -2,42 +2,44 @@
   "name": "ionic-multiple-image-upload",
   "version": "1.0.0",
   "description": "A package to upload multiple images to server at once",
-  "main": "index.js",
+  "main": "./dist/index.js",
+  "typings": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "ngc": "ngc",
+    "build": "rm -rf dist && npm run ngc",
+    "publishPackage": "npm run build && npm publish"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Ravi448/ionic-multiple-image-upload.git"
   },
   "keywords": [
-    "'ionic",
-    "multiple",
-    "image",
-    "upload'",
-    "'ionic",
-    "image",
-    "upload",
-    "with",
-    "data'",
-    "'ionic",
-    "post",
-    "data",
-    "in",
-    "formdata",
-    "instead",
-    "of",
-    "json'",
-    "'ionic",
-    "image",
-    "upload",
-    "to",
-    "server'"
+    "ionic multiple image upload",
+    "ionic image upload with data ionic",
+    "post data in formdata instead of json",
+    "ionic image upload to server'"
   ],
   "author": "Ravi Kumar",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/Ravi448/ionic-multiple-image-upload/issues"
   },
-  "homepage": "https://github.com/Ravi448/ionic-multiple-image-upload#readme"
+  "homepage": "https://github.com/Ravi448/ionic-multiple-image-upload#readme",
+  "devDependencies": {
+    "@angular/common": "5.0.3",
+    "@angular/compiler": "5.0.3",
+    "@angular/compiler-cli": "5.0.3",
+    "@angular/core": "5.0.3",
+    "@angular/forms": "^5.2.7",
+    "@angular/platform-browser": "5.0.3",
+    "@angular/platform-browser-dynamic": "5.0.3",
+    "@types/node": "^9.4.6",
+    "ionic-angular": "3.9.2",
+    "rxjs": "5.5.2",
+    "typescript": "^2.4.2",
+    "zone.js": "0.8.18"
+  }
 }
