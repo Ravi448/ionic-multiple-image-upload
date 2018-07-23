@@ -1,6 +1,6 @@
 {
   "name": "ionic-multiple-image-upload",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A package to upload multiple images to server at once",
   "main": "./dist/index.js",
   "typings": "./dist/index.d.ts",
