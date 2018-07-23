@@ -1,12 +1,8 @@
 {
-  "name": "ionic-multiple-image-upload",
+  "name": "ion-file-transfer",
   "version": "1.0.11",
   "description": "A package to upload multiple images to server at once",
-  "main": "./dist/index.js",
-  "typings": "./dist/index.d.ts",
-  "files": [
-    "dist"
-  ],
+  "main": "index.js",
   "scripts": {
     "ngc": "ngc",
     "build": "rm -rf dist && npm run ngc",
